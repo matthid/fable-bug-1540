@@ -11,8 +11,11 @@ open Shared
 
 open Fulma
 open MyProject
+open MyProject.Sdk
 
 do Test.doSomething()
+
+let logger = Logging.LogManager.Create("Logger")
 
 // The model holds data that you want to keep track of while the application is running
 // in this case, we are keeping track of a counter

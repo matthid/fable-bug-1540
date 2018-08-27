@@ -1,6 +1,6 @@
 module MyProject.Test
 
-open MyProject.Sdk.Logging
+open MyProject.Logging
 
 let l = LogManager.Create "test"
 
