@@ -21,3 +21,5 @@ do window?LogManager <-
     { new ILogManager with
         member x.Create name =
             new Logger(name) :> ILogger }
+
+let dummy() = ()    
